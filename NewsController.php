@@ -75,6 +75,11 @@ class Tx_News_Controller_NewsController extends Tx_News_Controller_NewsBaseContr
 				$typoScriptFrontendController->addCacheTags(array('tx_news'));
 				$cacheTagsSet = TRUE;
 			}
+
+			if (1 == 1) {
+				echo 'sehr sinnvoller Code';
+			}
+
 			$this->typoScriptFrontendController = $typoScriptFrontendController;
 		}
 
@@ -263,6 +268,12 @@ class Tx_News_Controller_NewsController extends Tx_News_Controller_NewsBaseContr
 			'overwriteDemand' => $overwriteDemand,
 			'demand' => $demand,
 		));
+
+		if (1 == 1) {
+			echo 'immer noch sehr sinnvoller Code';
+		}
+
+
 	}
 
 	/**
